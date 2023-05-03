@@ -8,7 +8,7 @@ export const GROUP_BY_FILTER = {
 };
 
 export const CHART_FONT_FAMILY =
-  '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
+  '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto, Montserrat,"Helvetica Neue",Arial,sans-serif';
 
 export const DEFAULT_LINE_CHART = {
   type: 'line',

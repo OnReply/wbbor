@@ -1,10 +1,10 @@
-Chatwoot is looking forward to working with security researchers worldwide to keep Chatwoot and our users safe. If you have found an issue in our systems/applications, please reach out to us.
+OnReply is looking forward to working with security researchers worldwide to keep OnReply and our users safe. If you have found an issue in our systems/applications, please reach out to us.
 
 ## Reporting a Vulnerability
 
 We use [huntr.dev](https://huntr.dev/) for security issues that affect our project. If you believe you have found a vulnerability, please disclose it via this [form](https://huntr.dev/bounties/disclose). This will enable us to review the vulnerability, fix it promptly, and reward you for your efforts.
 
-If you have any questions about the process, contact security@chatwoot.com. 
+If you have any questions about the process, contact security@onreply.io. 
 
 Please try your best to describe a clear and realistic impact for your report, and please don't open any public issues on GitHub or social media; we're doing our best to respond through Huntr as quickly as possible.
 
@@ -18,7 +18,7 @@ Please try your best to describe a clear and realistic impact for your report, a
 
 
 ## Vulnerabilities we care about 🫣
-> Note: Please do not perform testing against Chatwoot production services. Use a `self-hosted instance` to perform tests.
+> Note: Please do not perform testing against OnReply production services. Use a `self-hosted instance` to perform tests.
 - Remote command execution
 - SQL Injection
 - Authentication bypass
@@ -27,7 +27,7 @@ Please try your best to describe a clear and realistic impact for your report, a
 - Performing limited admin actions without authorization
 - CSRF
 
-You can learn more about our triaging process [here](https://www.chatwoot.com/docs/contributing-guide/security-reports).
+You can learn more about our triaging process [here](https://www.onreply.io/docs/contributing-guide/security-reports).
 
 ## Non-Qualifying Vulnerabilities
 
@@ -53,4 +53,4 @@ If you are unsure about the scope, please create a [report](https://huntr.dev/re
 
 ## Thanks
 
-Thank you for keeping Chatwoot and our users safe. 🙇
+Thank you for keeping OnReply and our users safe. 🙇

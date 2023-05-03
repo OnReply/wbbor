@@ -9,9 +9,9 @@ describe('messageFormatterMixin', () => {
     };
     const wrapper = shallowMount(Component);
     const message =
-      '<b>Chatwoot is an opensource tool. https://www.chatwoot.com</b>';
+      '<b>OnReply is an opensource tool. https://www.onreply.io</b>';
     expect(wrapper.vm.getPlainText(message)).toMatch(
-      'Chatwoot is an opensource tool. https://www.chatwoot.com'
+      'OnReply is an opensource tool. https://www.onreply.io'
     );
   });
 });

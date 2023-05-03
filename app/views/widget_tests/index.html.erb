@@ -12,7 +12,7 @@
 %>
 <script>
 
-window.chatwootSettings = {
+window.onreplySettings = {
   hideMessageBubble: false,
   position: '<%= @widget_position %>',
   locale: 'en',
@@ -31,7 +31,7 @@ window.chatwootSettings = {
   g.async = true;
   s.parentNode.insertBefore(g,s);
   g.onload=function(){
-    window.chatwootSDK.run({
+    window.onreplysdk.run({
       websiteToken: '<%= @web_widget.website_token %>',
       baseUrl: BASE_URL
     })

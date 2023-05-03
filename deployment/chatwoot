@@ -1,6 +1,6 @@
-# give chatwoot user permission to start/stop/restart chatwoot systemd service
+# give OnReply user permission to start/stop/restart OnReply systemd service
 
-%chatwoot ALL=NOPASSWD: /bin/systemctl start chatwoot.target
-%chatwoot ALL=NOPASSWD: /bin/systemctl stop chatwoot.target
-%chatwoot ALL=NOPASSWD: /bin/systemctl restart chatwoot.target
-%chatwoot ALL=NOPASSWD: /usr/local/bin/cwctl
+%OnReply ALL=NOPASSWD: /bin/systemctl start chatwoot.target
+%OnReply ALL=NOPASSWD: /bin/systemctl stop chatwoot.target
+%OnReply ALL=NOPASSWD: /bin/systemctl restart chatwoot.target
+%OnReply ALL=NOPASSWD: /usr/local/bin/cwctl
