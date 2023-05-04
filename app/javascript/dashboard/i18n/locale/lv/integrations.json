@@ -33,7 +33,7 @@
       "HEADER_BTN_TXT": "Pievienot jaunu webhook",
       "LOADING": "Notiek pievienoto webhook iegūšana",
       "SEARCH_404": "Šim vaicājumam nav atbilstošu vienumu",
-      "SIDEBAR_TXT": "<p><b>Webhook</b> </p> <p>Webhook ir HTTP atzvani, kurus var definēt katram kontam. Tos aktivizē tādi notikumi kā ziņojumu izveide pakalpojumā Chatwoot. Šim kontam varat izveidot vairāk nekā vienu webhook. <br /><br /> Lai izveidotu <b>webhook</b>, noklikšķiniet uz <b>Pievienot jaunu webhook</b> pogas. Jūs varat arī noņemt jebkuru esošo webhook, noklikšķinot uz pogas Dzēst.</p>",
+      "SIDEBAR_TXT": "<p><b>Webhook</b> </p> <p>Webhook ir HTTP atzvani, kurus var definēt katram kontam. Tos aktivizē tādi notikumi kā ziņojumu izveide pakalpojumā OnReply. Šim kontam varat izveidot vairāk nekā vienu webhook. <br /><br /> Lai izveidotu <b>webhook</b>, noklikšķiniet uz <b>Pievienot jaunu webhook</b> pogas. Jūs varat arī noņemt jebkuru esošo webhook, noklikšķinot uz pogas Dzēst.</p>",
       "LIST": {
         "404": "Šim kontam nav nokonfigurēts neviens webhook.",
         "TITLE": "Pārvaldīt webhook",
@@ -75,7 +75,7 @@
     "SLACK": {
       "HELP_TEXT": {
         "TITLE": "Izmantojot Slack Integrāciju",
-        "BODY": "<br/><p>OnReply tagad sinhronizēs visas ienākošās <b><i>customer-conversations</i></b> kanāla sarunas, kas atrodas Jūsu slack workplace.</p><p>Atbildot uz sarunas vītni, <b><i>customer-conversations</i></b> slack kanālā tiks izveidota atbilde klientam, izmantojot chatwoot.</p><p>Sāciet atbildes ar <b><i>note:</i></b> lai izveidotu individuālas piezīmes, nevis atbildes.</p><p>Ja slack atbildētājam ir aģenta profils pakalpojumā chatwoot, ar tādu pašu e-pasta adresi, atbildes tiks attiecīgi sasaistītas.</p><p>Kad atbildētājam nebūs piesaistīts aģenta profils, atbildes tiks sniegtas no robotprogrammatūras profila.</p>"
+        "BODY": "<br/><p>OnReply tagad sinhronizēs visas ienākošās <b><i>customer-conversations</i></b> kanāla sarunas, kas atrodas Jūsu slack workplace.</p><p>Atbildot uz sarunas vītni, <b><i>customer-conversations</i></b> slack kanālā tiks izveidota atbilde klientam, izmantojot OnReply.</p><p>Sāciet atbildes ar <b><i>note:</i></b> lai izveidotu individuālas piezīmes, nevis atbildes.</p><p>Ja slack atbildētājam ir aģenta profils pakalpojumā chatwoot, ar tādu pašu e-pasta adresi, atbildes tiks attiecīgi sasaistītas.</p><p>Kad atbildētājam nebūs piesaistīts aģenta profils, atbildes tiks sniegtas no robotprogrammatūras profila.</p>"
       }
     },
     "DYTE": {

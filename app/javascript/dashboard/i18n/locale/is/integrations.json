@@ -33,7 +33,7 @@
       "HEADER_BTN_TXT": "Bæta við nýjum webhook",
       "LOADING": "Fetching attached webhooks",
       "SEARCH_404": "Það eru engin atriði sem passa við þessa fyrirspurn",
-      "SIDEBAR_TXT": "<p><b>Webhooks</b> </p> <p>Webhooks eru HTTP svarhringingar sem hægt er að skilgreina fyrir hvern reikning. Þeir koma af stað af atburðum eins og sköpun skilaboða í Chatwoot. Þú getur búið til fleiri en einn webhook fyrir þennan reikning. <br /><br /> Til að búa til <b>webhook</b>, smelltu á hnappinn <b>Bæta við nýjum webhook</b>. Þú getur líka fjarlægt hvaða webhook sem fyrir er með því að smella á Eyða hnappinn.</p>",
+      "SIDEBAR_TXT": "<p><b>Webhooks</b> </p> <p>Webhooks eru HTTP svarhringingar sem hægt er að skilgreina fyrir hvern reikning. Þeir koma af stað af atburðum eins og sköpun skilaboða í OnReply. Þú getur búið til fleiri en einn webhook fyrir þennan reikning. <br /><br /> Til að búa til <b>webhook</b>, smelltu á hnappinn <b>Bæta við nýjum webhook</b>. Þú getur líka fjarlægt hvaða webhook sem fyrir er með því að smella á Eyða hnappinn.</p>",
       "LIST": {
         "404": "Það eru engir webhooks stilltir á þessum reikningi.",
         "TITLE": "Manage webhooks",
@@ -75,7 +75,7 @@
     "SLACK": {
       "HELP_TEXT": {
         "TITLE": "Using Slack Integration",
-        "BODY": "<br/><p>OnReply mun nú samstilla öll innkomin samtöl inn á <b><i>customer-conversations</i></b> á Slack vinnusvæðinu þínu.</p><p>Að svara samtalsþræði í <b><i>customer-conversations</i></b> Slack rás mun senda svar til viðskiptavinar í gegnum chatwoot.</p><p>Byrjaðu svörin með <b><i> note:</i></b> til að búa til einkaglósur í stað svara.</p><p>Ef svarandinn á Slack er með skráðann þjónustufulltrúa í OnReply undir sama netfangi verða svörin tengd í samræmi við það.</p><p>Þegar svarandinn er ekki með tengdan þjónustufulltrúa verða svörin gerð úr spjallmanna prófílnum.</p>"
+        "BODY": "<br/><p>OnReply mun nú samstilla öll innkomin samtöl inn á <b><i>customer-conversations</i></b> á Slack vinnusvæðinu þínu.</p><p>Að svara samtalsþræði í <b><i>customer-conversations</i></b> Slack rás mun senda svar til viðskiptavinar í gegnum OnReply.</p><p>Byrjaðu svörin með <b><i> note:</i></b> til að búa til einkaglósur í stað svara.</p><p>Ef svarandinn á Slack er með skráðann þjónustufulltrúa í OnReply undir sama netfangi verða svörin tengd í samræmi við það.</p><p>Þegar svarandinn er ekki með tengdan þjónustufulltrúa verða svörin gerð úr spjallmanna prófílnum.</p>"
       }
     },
     "DYTE": {
