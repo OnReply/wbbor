@@ -54,8 +54,8 @@ export default {
         plugins: {
           wavesurfer: {
             backend: 'WebAudio',
-            waveColor: '#1f93ff',
-            progressColor: 'rgb(25, 118, 204)',
+            waveColor: '#8437fd',
+            progressColor: 'rgb(132, 55, 253)',
             cursorColor: 'rgba(43, 51, 63, 0.7)',
             backgroundColor: 'none',
             barWidth: 1,
