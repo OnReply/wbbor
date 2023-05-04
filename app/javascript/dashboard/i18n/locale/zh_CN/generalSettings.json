@@ -88,7 +88,7 @@
   },
   "NETWORK": {
     "NOTIFICATION": {
-      "TEXT": "已与 Chatwoot 断开链接"
+      "TEXT": "已与OnReply.io断开链接"
     },
     "BUTTON": {
       "REFRESH": "刷新"

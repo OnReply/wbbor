@@ -441,7 +441,7 @@ function ssl_success_message() {
 Woot! Woot!! Chatwoot server installation is complete.
 The server will be accessible at https://$domain_name
 
-Join the community at https://chatwoot.com/community?utm_source=cwctl
+Join the community at https://onreply.io/community?utm_source=cwctl
 ***************************************************************************
 
 EOF
@@ -551,9 +551,9 @@ Woot! Woot!! Chatwoot server installation is complete.
 The server will be accessible at http://$public_ip:3000
 
 To configure a domain and SSL certificate, follow the guide at
-https://www.chatwoot.com/docs/deployment/deploy-chatwoot-in-linux-vm?utm_source=cwctl
+https://onreply.io/docs/deployment/deploy-chatwoot-in-linux-vm?utm_source=cwctl
 
-Join the community at https://chatwoot.com/community?utm_source=cwctl
+Join the community at https://onreply.io/community?utm_source=cwctl
 ***************************************************************************
 
 EOF
@@ -640,7 +640,7 @@ Exit status:
 Returns 0 if successful; non-zero otherwise.
 
 Report bugs at https://github.com/chatwoot/chatwoot/issues
-Get help, https://chatwoot.com/community?utm_source=cwctl
+Get help, https://onreply.io/community?utm_source=cwctl
 
 EOF
 }
