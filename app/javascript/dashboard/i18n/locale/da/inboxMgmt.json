@@ -686,7 +686,7 @@
         "AGENT_MESSAGE": "Hej"
       },
       "BRANDING_TEXT": "Drevet afOnReply.io",
-      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
+      "SCRIPT_SETTINGS": "\n      window.onreplySettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": "Microsoft",

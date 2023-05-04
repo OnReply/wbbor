@@ -17,28 +17,28 @@ const runSDK = ({ baseUrl, websiteToken }) => {
     return;
   }
 
-  const chatwootSettings = window.chatwootSettings || {};
-  let locale = chatwootSettings.locale;
+  const onreplySettings = window.onreplySettings || {};
+  let locale = onreplySettings.locale;
 
-  if (chatwootSettings.useBrowserLanguage) {
+  if (onreplySettings.useBrowserLanguage) {
     locale = window.navigator.language.replace('-', '_');
   }
 
   window.$chatwoot = {
     baseUrl,
     hasLoaded: false,
-    hideMessageBubble: chatwootSettings.hideMessageBubble || false,
+    hideMessageBubble: onreplySettings.hideMessageBubble || false,
     isOpen: false,
-    position: chatwootSettings.position === 'left' ? 'left' : 'right',
+    position: onreplySettings.position === 'left' ? 'left' : 'right',
     websiteToken,
     locale,
-    useBrowserLanguage: chatwootSettings.useBrowserLanguage || false,
-    type: getBubbleView(chatwootSettings.type),
-    launcherTitle: chatwootSettings.launcherTitle || '',
-    showPopoutButton: chatwootSettings.showPopoutButton || false,
-    widgetStyle: getWidgetStyle(chatwootSettings.widgetStyle) || 'standard',
+    useBrowserLanguage: onreplySettings.useBrowserLanguage || false,
+    type: getBubbleView(onreplySettings.type),
+    launcherTitle: onreplySettings.launcherTitle || '',
+    showPopoutButton: onreplySettings.showPopoutButton || false,
+    widgetStyle: getWidgetStyle(onreplySettings.widgetStyle) || 'standard',
     resetTriggered: false,
-    darkMode: getDarkMode(chatwootSettings.darkMode),
+    darkMode: getDarkMode(onreplySettings.darkMode),
 
     toggle(state) {
       IFrameHelper.events.toggleBubble(state);

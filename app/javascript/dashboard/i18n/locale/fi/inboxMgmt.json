@@ -686,7 +686,7 @@
         "AGENT_MESSAGE": "Moi"
       },
       "BRANDING_TEXT": "Palvelun tarjoaaOnReply.io",
-      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
+      "SCRIPT_SETTINGS": "\n      window.onreplySettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": "Microsoft",

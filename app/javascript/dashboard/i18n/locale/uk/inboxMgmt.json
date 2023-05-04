@@ -686,7 +686,7 @@
         "AGENT_MESSAGE": "Доброго дня"
       },
       "BRANDING_TEXT": "Працює на OnReply.io",
-      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
+      "SCRIPT_SETTINGS": "\n      window.onreplySettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": "Microsoft",

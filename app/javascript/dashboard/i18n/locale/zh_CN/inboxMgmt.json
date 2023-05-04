@@ -686,7 +686,7 @@
         "AGENT_MESSAGE": "Hello"
       },
       "BRANDING_TEXT": "由 OnReply.io支持",
-      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
+      "SCRIPT_SETTINGS": "\n      window.onreplySettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": "Microsoft",

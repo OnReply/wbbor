@@ -686,7 +686,7 @@
         "AGENT_MESSAGE": "Hello"
       },
       "BRANDING_TEXT": "OnReply tarafından desteklenmektedir",
-      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
+      "SCRIPT_SETTINGS": "\n      window.onreplySettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": "Microsoft",
