@@ -695,7 +695,7 @@
         "AGENT_MESSAGE": "Hej"
       },
       "BRANDING_TEXT": "Drevet af Chatwoot",
-      "SCRIPT_SETTINGS": "\n      window.onreplySettings = {options};"
+      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": "Microsoft",
