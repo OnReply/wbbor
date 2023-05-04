@@ -685,7 +685,7 @@
         "USER_MESSAGE": "Hi",
         "AGENT_MESSAGE": "Hello"
       },
-      "BRANDING_TEXT": "പ്രായോജകർOnReply.io",
+      "BRANDING_TEXT": "പ്രായോജകർ OnReply.io",
       "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
     },
     "EMAIL_PROVIDERS": {
