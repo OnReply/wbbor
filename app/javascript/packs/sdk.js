@@ -170,6 +170,6 @@ const runSDK = ({ baseUrl, websiteToken }) => {
   });
 };
 
-window.chatwootSDK = {
+window.onreplySDK = {
   run: runSDK,
 };
