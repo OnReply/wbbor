@@ -685,7 +685,7 @@
         "USER_MESSAGE": "Hei",
         "AGENT_MESSAGE": "Moi"
       },
-      "BRANDING_TEXT": "Palvelun tarjoaaOnReply.io",
+      "BRANDING_TEXT": "Palvelun tarjoaa OnReply.io",
       "SCRIPT_SETTINGS": "\n      window.onreplySettings = {options};"
     },
     "EMAIL_PROVIDERS": {

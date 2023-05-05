@@ -685,7 +685,7 @@
         "USER_MESSAGE": "היי",
         "AGENT_MESSAGE": "שלום"
       },
-      "BRANDING_TEXT": "מופעל על ידיOnReply.io",
+      "BRANDING_TEXT": "מופעל על ידי OnReply.io",
       "SCRIPT_SETTINGS": "\n      window.onreplySettings = {options};"
     },
     "EMAIL_PROVIDERS": {

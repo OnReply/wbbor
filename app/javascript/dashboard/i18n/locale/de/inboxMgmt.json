@@ -685,7 +685,7 @@
         "USER_MESSAGE": "Hi",
         "AGENT_MESSAGE": "Hallo"
       },
-      "BRANDING_TEXT": "Unterstützt vonOnReply.io",
+      "BRANDING_TEXT": "Unterstützt von OnReply.io",
       "SCRIPT_SETTINGS": "\n      window.onreplySettings = {options};"
     },
     "EMAIL_PROVIDERS": {
