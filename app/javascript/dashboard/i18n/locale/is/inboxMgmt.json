@@ -329,7 +329,7 @@
       },
       "AUTH": {
         "TITLE": "Veldu rás",
-        "DESC": "Chatwoot styður vefspjall, Facebook Messenger, Twitter prófíla, WhatsApp, tölvupóst osfrv., Sem rásir. Ef þú vilt búa til sérsniðna rás geturðu búið hana til með því að nota API rásina. Til að byrja skaltu velja eina af rásunum hér að neðan."
+        "DESC": "OnReply.io styður vefspjall, Facebook Messenger, Twitter prófíla, WhatsApp, tölvupóst osfrv., Sem rásir. Ef þú vilt búa til sérsniðna rás geturðu búið hana til með því að nota API rásina. Til að byrja skaltu velja eina af rásunum hér að neðan."
       },
       "AGENTS": {
         "TITLE": "Þjónustufulltrúar",
