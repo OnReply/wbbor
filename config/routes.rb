@@ -64,6 +64,7 @@ Rails.application.routes.draw do
             post :execute, on: :member
             post :attach_file, on: :collection
           end
+          resources :sla_policies, only: [:index, :create, :show, :update, :destroy]
           resources :campaigns, only: [:index, :create, :show, :update, :destroy]
           resources :dashboard_apps, only: [:index, :show, :create, :update, :destroy]
           namespace :channels do
@@ -91,10 +92,12 @@ Rails.application.routes.draw do
               post :unmute
               post :transcript
               post :toggle_status
+              post :toggle_priority
               post :toggle_typing_status
               post :update_last_seen
               post :unread
               post :custom_attributes
+              get :attachments
             end
           end
 
@@ -112,6 +115,7 @@ Rails.application.routes.draw do
               get :search
               post :filter
               post :import
+              get :export
             end
             member do
               get :contactable_inboxes
@@ -176,7 +180,11 @@ Rails.application.routes.draw do
           resources :webhooks, only: [:index, :create, :update, :destroy]
           namespace :integrations do
             resources :apps, only: [:index, :show]
-            resources :hooks, only: [:create, :update, :destroy]
+            resources :hooks, only: [:create, :update, :destroy] do
+              member do
+                post :process_event
+              end
+            end
             resource :slack, only: [:create, :update, :destroy], controller: 'slack'
             resource :dyte, controller: 'dyte', only: [] do
               collection do
@@ -333,9 +341,9 @@ Rails.application.routes.draw do
   get 'hc/:slug/:locale', to: 'public/api/v1/portals#show'
   get 'hc/:slug/:locale/articles', to: 'public/api/v1/portals/articles#index'
   get 'hc/:slug/:locale/categories', to: 'public/api/v1/portals/categories#index'
-  get 'hc/:slug/:locale/:category_slug', to: 'public/api/v1/portals/categories#show'
-  get 'hc/:slug/:locale/:category_slug/articles', to: 'public/api/v1/portals/articles#index'
-  get 'hc/:slug/:locale/:category_slug/:id', to: 'public/api/v1/portals/articles#show'
+  get 'hc/:slug/:locale/categories/:category_slug', to: 'public/api/v1/portals/categories#show'
+  get 'hc/:slug/:locale/categories/:category_slug/articles', to: 'public/api/v1/portals/articles#index'
+  get 'hc/:slug/articles/:article_slug', to: 'public/api/v1/portals/articles#show'
 
   # ----------------------------------------------------------------------
   # Used in mailer templates
@@ -390,11 +398,17 @@ Rails.application.routes.draw do
       # order of resources affect the order of sidebar navigation in super admin
       resources :accounts, only: [:index, :new, :create, :show, :edit, :update, :destroy] do
         post :seed, on: :member
+        post :reset_cache, on: :member
       end
-      resources :users, only: [:index, :new, :create, :show, :edit, :update, :destroy]
+      resources :users, only: [:index, :new, :create, :show, :edit, :update, :destroy] do
+        delete :avatar, on: :member, action: :destroy_avatar
+      end
+
       resources :access_tokens, only: [:index, :show]
       resources :installation_configs, only: [:index, :new, :create, :show, :edit, :update]
-      resources :agent_bots, only: [:index, :new, :create, :show, :edit, :update]
+      resources :agent_bots, only: [:index, :new, :create, :show, :edit, :update] do
+        delete :avatar, on: :member, action: :destroy_avatar
+      end
       resources :platform_apps, only: [:index, :new, :create, :show, :edit, :update]
       resource :instance_status, only: [:show]
 
